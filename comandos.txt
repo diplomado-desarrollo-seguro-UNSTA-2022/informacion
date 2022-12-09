@@ -5,3 +5,4 @@ options
 show options
 set rhosts ip
 run migrate -p 1512
+nmap -sP 192.168.0.0-100
